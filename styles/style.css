@@ -1,0 +1,89 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap');
+
+body{
+    font-family: Lato;
+}
+
+/* Header Section style */
+
+header{
+    background: rgba(229, 84, 115, 0.1);
+    position: absolute;
+    width: 1920px;
+    height: 850px;
+
+}
+
+.header{
+    position: absolute;
+    width: 708px;
+    height: 586px;
+    left: 240px;
+    right: 972px;
+    top: 197px;
+}
+
+.header-text h2{
+    width: 708px;
+    height: 288px;
+    left: 240px;
+    right: -240px;
+    top: 197px;
+    bottom: 21px;
+    color: rgb(39, 39, 39);
+    font-family: Lato;
+    font-size: 80px;
+    font-weight: 800;
+    line-height: 96px;
+    letter-spacing: 0%;
+    text-align: left;
+}
+
+.header-text p{
+    width: 634px;
+    height: 90px;
+    left: 240px;
+    right: -166px;
+    top: 517px;
+    bottom: -101px;
+    color: rgba(39, 39, 39, 0.6);
+    font-family: Lato;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 30px;
+    letter-spacing: 0%;
+    text-align: left;
+}
+
+.header-image{
+    position: absolute;
+    width: 635px;
+    height: 800px;
+    left: 1045px;
+    right: 240px;
+    top: 50px;
+    background: url(../assets/pngwing\ 10.png);
+}
+
+.shop-btn{
+    position: relative;
+    width: 177px;
+    height: 64px;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: flex-start;
+    padding: 20px 43px 20px 43px;
+    border-radius: 8px;
+    background: rgb(229, 84, 115);
+    color: rgb(255, 255, 255);
+    font-family: Lato;
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 24px;
+    letter-spacing: 0%;
+    text-align: left;
+    cursor:pointer;
+    border: none;
+}
